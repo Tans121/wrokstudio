@@ -175,7 +175,7 @@ export default function App(): React.JSX.Element {
           <a href="mailto:hello@example.com">Let’s talk ↗</a>
           <footer>
             <span>© 2026 Tans Studio</span>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/paleo121_tans?stkn=OWExMXc3ODB2eTYy" target="_blank" rel="noreferrer">
               Instagram
             </a>
           </footer>
