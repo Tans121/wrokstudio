@@ -21,7 +21,37 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 1,
+    id: 5,
+    title: "扉 \n-Prologue-",
+    category: "Graphic",
+    year: "2026",
+    description: "これらはドリップコーヒーである。これらはプレパラートである。これらは虚像である。\n私というフィルタによって抽出され、私という対物レンズによって観察され、私という鏡によって反映された世界の形である。",
+    services: ["Graphic Design", "Digital Art"],
+    media: [
+      {
+        type: "image",
+        src: "/works/Prologue.png",
+        alt: "紫とピンクのグラデーションに黄色の円を配置したPNGサンプル",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "夜 \n-NIGHT-",
+    category: "Graphic",
+    year: "2026",
+    description: "泥よけが壊れたチャリであてもなく漕ぎ出した夜は雨上がりで。",
+    services: ["Graphic Design", "Digital Art"],
+    media: [
+      {
+        type: "image",
+        src: "/works/Night.png",
+        alt: "オレンジと青の波形を描いたモーション作品のポスター画像",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "透明  \n-TRANSPARENT-",
     category: "Graphic",
     year: "2026",
@@ -37,36 +67,6 @@ export const artworks: readonly Artwork[] = [
   },
   {
     id: 2,
-    title: "扉 \n-Prologue-",
-    category: "Graphic",
-    year: "2026",
-    description: "これらはドリップコーヒーである。これらはプレパラートである。これらは虚像である。\n私というフィルタによって抽出され、私という対物レンズによって観察され、私という鏡によって反映された世界の形である。",
-    services: ["Graphic Design", "Digital Art"],
-    media: [
-      {
-        type: "image",
-        src: "/works/Prologue.png",
-        alt: "紫とピンクのグラデーションに黄色の円を配置したPNGサンプル",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "夜 \n-NIGHT-",
-    category: "Graphic",
-    year: "2026",
-    description: "泥よけが壊れたチャリであてもなく漕ぎ出した夜は雨上がりで。",
-    services: ["Graphic Design", "Digital Art"],
-    media: [
-      {
-        type: "image",
-        src: "/works/Night.png",
-        alt: "オレンジと青の波形を描いたモーション作品のポスター画像",
-      },
-    ],
-  },
-  {
-    id: 4,
     title: "飛雨 -HIU-",
     category: "Graphic",
     year: "2025",
@@ -81,7 +81,7 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 5,
+    id: 1,
     title: "私たちがみている世界",
     category: "Graphic",
     year: "2026",
