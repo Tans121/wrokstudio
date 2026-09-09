@@ -6,21 +6,6 @@ import type { Artwork, Category } from "../types/artwork";
  */
 export const artworks: readonly Artwork[] = [
   {
-    id: 6,
-    title: "LIMITLESS",
-    category: "Graphic",
-    year: "2026",
-    description: "街の拍動が、私を彼方へと誘う。",
-    services: ["Graphic Design", "Digital Art"],
-    media: [
-      {
-        type: "image",
-        src: "/works/limitless.png",
-        alt: "透明を表現したグラフィック作品。",
-      },
-    ],
-  },
-  {
     id: 5,
     title: "扉 \n-Prologue-",
     category: "Graphic",
@@ -77,6 +62,21 @@ export const artworks: readonly Artwork[] = [
         type: "image",
         src: "/works/Hiu.png",
         alt: "黒、白、赤の幾何学図形を用いたサンプルデザイン",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "LIMITLESS",
+    category: "Graphic",
+    year: "2026",
+    description: "街の拍動が、私を彼方へと誘う。",
+    services: ["Graphic Design", "Digital Art"],
+    media: [
+      {
+        type: "image",
+        src: "/works/limitless.png",
+        alt: "透明を表現したグラフィック作品。",
       },
     ],
   },
