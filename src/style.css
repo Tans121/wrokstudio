@@ -2,6 +2,29 @@
    基本設定
    ======================================== */
 
+
+/* ========================================
+   公開メディアの簡易保護
+   ======================================== */
+
+.protected-media {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+}
+
+/*
+ * メディア上の長押しやドラッグによる簡易保存を抑止する。
+ * 開発者ツールやスクリーンショットは防止できない。
+ */
+.artwork-media,
+.detail-media {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
 :root {
   font-family: Inter, "Noto Sans JP", system-ui, sans-serif;
   color: #0a0a0a;
