@@ -6,7 +6,7 @@ import type { Artwork, Category } from "../types/artwork";
  */
 export const artworks: readonly Artwork[] = [
   {
-    id: 5,
+    id: 1,
     title: "扉 \n-Prologue-",
     category: "Graphic",
     year: "2026",
@@ -21,7 +21,7 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 4,
+    id: 2,
     title: "夜 \n-NIGHT-",
     category: "Graphic",
     year: "2026",
@@ -51,10 +51,25 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 2,
+    id: 4,
+    title: "日の出 -rising-",
+    category: "Graphic",
+    year: "2026",
+    description: "空は上まぶた、山は下まぶたとなり、世界が目を覚ます。",
+    services: ["Graphic Design", "Digital Art"],
+    media: [
+      {
+        type: "image",
+        src: "/works/Yama.png",
+        alt: "黒、白、赤の幾何学図形を用いたサンプルデザイン",
+      },
+    ],
+  },
+  {
+    id: 5,
     title: "飛雨 -HIU-",
     category: "Graphic",
-    year: "2025",
+    year: "2026",
     description: "風に煽られ、雨は私を横切ってゆく。",
     services: ["Graphic Design", "Digital Art"],
     media: [
@@ -81,7 +96,7 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 1,
+    id: 7,
     title: "私たちがみている世界",
     category: "Graphic",
     year: "2026",
