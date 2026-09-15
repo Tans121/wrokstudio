@@ -67,6 +67,21 @@ export const artworks: readonly Artwork[] = [
   },
   {
     id: 5,
+    title: "初恋 -First Love-",
+    category: "Graphic",
+    year: "2026",
+    description: "イチゴのように嚙み潰した，記憶。",
+    services: ["Graphic Design", "Digital Art"],
+    media: [
+      {
+        type: "image",
+        src: "/works/Hatsukoi.png",
+        alt: "黒、白、赤の幾何学図形を用いたサンプルデザイン",
+      },
+    ],
+  },
+  {
+    id: 6,
     title: "飛雨 -HIU-",
     category: "Graphic",
     year: "2026",
@@ -81,7 +96,7 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "LIMITLESS",
     category: "Graphic",
     year: "2026",
@@ -96,7 +111,7 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "私たちがみている世界",
     category: "Graphic",
     year: "2026",

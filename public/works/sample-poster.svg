@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="抽象的なサンプルポスター">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5636ff"/><stop offset="1" stop-color="#111"/></linearGradient></defs>
-  <rect width="1200" height="900" fill="url(#g)"/><circle cx="280" cy="220" r="210" fill="#efff2e"/><circle cx="900" cy="620" r="250" fill="#ff4fd8" fill-opacity=".88"/>
-</svg>
