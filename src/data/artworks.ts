@@ -52,6 +52,21 @@ export const artworks: readonly Artwork[] = [
   },
   {
     id: 4,
+    title: "錦  -NISHIKI-",
+    category: "Graphic",
+    year: "2026",
+    description: "朱に交われど。",
+    services: ["Graphic Design", "Digital Art"],
+    media: [
+      {
+        type: "image",
+        src: "/works/nishiki.png",
+        alt: "透明を表現したグラフィック作品。",
+      },
+    ],
+  },
+  {
+    id: 5,
     title: "日の出 -rising-",
     category: "Graphic",
     year: "2026",
@@ -66,7 +81,7 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "初恋 -First Love-",
     category: "Graphic",
     year: "2026",
@@ -81,7 +96,7 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "飛雨 -HIU-",
     category: "Graphic",
     year: "2026",
@@ -96,7 +111,7 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "LIMITLESS",
     category: "Graphic",
     year: "2026",
@@ -111,7 +126,7 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "私たちがみている世界",
     category: "Graphic",
     year: "2026",
