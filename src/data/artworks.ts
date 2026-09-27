@@ -37,36 +37,21 @@ export const artworks: readonly Artwork[] = [
   },
   {
     id: 3,
-    title: "透明  \n-TRANSPARENT-",
+    title: "初恋 -First Love-",
     category: "Graphic",
     year: "2026",
-    description: "たしかにある、不可視。",
+    description: "イチゴのように嚙み潰した，記憶。",
     services: ["Graphic Design", "Digital Art"],
     media: [
       {
         type: "image",
-        src: "/works/Transparent.png",
-        alt: "透明を表現したグラフィック作品。",
+        src: "/works/Hatsukoi.png",
+        alt: "黒、白、赤の幾何学図形を用いたサンプルデザイン",
       },
     ],
   },
   {
     id: 4,
-    title: "錦  -NISHIKI-",
-    category: "Graphic",
-    year: "2026",
-    description: "朱に交われど。",
-    services: ["Graphic Design", "Digital Art"],
-    media: [
-      {
-        type: "image",
-        src: "/works/nishiki.png",
-        alt: "透明を表現したグラフィック作品。",
-      },
-    ],
-  },
-  {
-    id: 5,
     title: "日の出 -rising-",
     category: "Graphic",
     year: "2026",
@@ -81,17 +66,32 @@ export const artworks: readonly Artwork[] = [
     ],
   },
   {
-    id: 6,
-    title: "初恋 -First Love-",
+    id: 5,
+    title: "透明  \n-TRANSPARENT-",
     category: "Graphic",
     year: "2026",
-    description: "イチゴのように嚙み潰した，記憶。",
+    description: "たしかにある、不可視。",
     services: ["Graphic Design", "Digital Art"],
     media: [
       {
         type: "image",
-        src: "/works/Hatsukoi.png",
-        alt: "黒、白、赤の幾何学図形を用いたサンプルデザイン",
+        src: "/works/Transparent.png",
+        alt: "透明を表現したグラフィック作品。",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "錦  -NISHIKI-",
+    category: "Graphic",
+    year: "2026",
+    description: "朱に交われど。",
+    services: ["Graphic Design", "Digital Art"],
+    media: [
+      {
+        type: "image",
+        src: "/works/nishiki.png",
+        alt: "透明を表現したグラフィック作品。",
       },
     ],
   },
