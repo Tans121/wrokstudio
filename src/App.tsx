@@ -104,7 +104,7 @@ export default function App(): React.JSX.Element {
           </h1>
           <div className="hero-footer">
             <p>
-              私がこれまで産み落とした子供達。窓を見た。水滴たちは進行方向の逆へ、逆へと伝う。
+              私がこれまで産み落とした子供達窓を見た水滴たちは進行方向の逆へ、逆へと伝う。
             </p>
             <button onClick={() => scrollToSection("work")} aria-label="作品一覧へ移動">
               ↓
